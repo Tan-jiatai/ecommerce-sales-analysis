@@ -1,16 +1,16 @@
-# 🛒 E-Commerce Sales Analysis
+# E-Commerce Sales Analysis
 
 **Data Analysis Project | Python · SQL · Power BI**
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project analyzes **34,500 e-commerce transactions** to uncover business insights, track sales performance, and identify growth opportunities. The analysis covers data cleaning, database management, SQL querying, and interactive dashboard development — showcasing a complete data analytics workflow.
 
 ---
 
-## 🎯 Objective
+## Objective
 
 - Clean and preprocess raw e-commerce data using Python
 - Store and query data using SQLite
@@ -19,7 +19,7 @@ This project analyzes **34,500 e-commerce transactions** to uncover business ins
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Tool | Purpose |
 |------|---------|
@@ -30,28 +30,26 @@ This project analyzes **34,500 e-commerce transactions** to uncover business ins
 
 ---
 
-## 📁 Project Structure
-ecommerce-sales-analysis/
-│
-├── cleaned data.ipynb # Python data cleaning code
-├── mysql querries.ipynb # 8 SQL analytical queries
-├── ecommerce_cleaned.csv # Final cleaned dataset (34,500 rows)
-├── ecommerce.db # SQLite database
-├── e-commerce sales dashboard.pbix # Power BI dashboard file
-│
-├── sql_results_monthly_trend.csv
-├── sql_results_category_sales.csv
-├── sql_results_weekday_sales.csv
-├── sql_results_payment_method.csv
-├── sql_results_weekday_vs_weekend.csv
-├── sql_results_customer_gender.csv
-├── sql_results_growth.csv
-└── sql_results_top_customers.csv
-
+## Project Structure
+| File | Description |
+|------|-------------|
+| `cleaned data.ipynb` | Python data cleaning code |
+| `mysql queries.ipynb` | 8 SQL analytical queries |
+| `ecommerce_cleaned.csv` | Final cleaned dataset (34,500 rows) |
+| `ecommerce.db` | SQLite database |
+| `e-commerce sales dashboard.pbix` | Power BI dashboard file |
+| `sql_results_monthly_trend.csv` | Monthly sales trend results |
+| `sql_results_category_sales.csv` | Sales by category results |
+| `sql_results_weekday_sales.csv` | Sales by weekday results |
+| `sql_results_payment_method.csv` | Sales by payment method results |
+| `sql_results_weekday_vs_weekend.csv` | Weekday vs weekend results |
+| `sql_results_customer_gender.csv` | Sales by customer gender results |
+| `sql_results_growth.csv` | Month-over-month growth results |
+| `sql_results_top_customers.csv` | Top 10 customers results |
 
 ---
 
-## 🧹 Data Cleaning Process (Python)
+## Data Cleaning Process (Python)
 
 | Step | Action |
 |------|--------|
@@ -89,7 +87,7 @@ ecommerce-sales-analysis/
 
 ---
 
-## 📈 Dashboard KPIs
+## Dashboard KPIs
 
 | Metric | Value |
 |--------|-------|
@@ -100,21 +98,62 @@ ecommerce-sales-analysis/
 
 ---
 
-## 📊 Dashboard Visuals
+## Dashboard Visuals
 
-| Visual | Purpose |
-|--------|---------|
-| Line Chart | Monthly sales trend over time |
-| Bar Chart | Sales by product category |
-| Pie Chart | Sales distribution by payment method |
-| Bar Chart | Sales by customer gender |
-| Bar Chart | Sales by region |
-| Bar Chart | Sales by weekday |
-| Slicers | Filter by category, year, payment method |
+### 1. KPIs (Top Row)
+| KPI | Value |
+|-----|-------|
+| Total Sales | $5.87M |
+| Total Orders | 35,000 |
+| Total Customers | 8,000 |
+| Average Order Value | $170.01 |
 
 ---
 
-## 💡 Key Business Insights
+### 2. Slicers (Filters)
+| Slicer | Options |
+|--------|---------|
+| Category | Beauty, Electronics, Fashion |
+| Year | 2023, 2024, 2025 |
+| Payment Method | COD, Credit Card, Debit Card |
+| Region | Central, East, North, South |
+| Customer Gender | Female, Male, Other |
+
+---
+
+### 3. Charts
+
+| Chart | Description |
+|-------|-------------|
+| **Total Sales by Year** | Bar chart showing sales trend across 2023-2025 |
+| **Total Sales by Payment Method** | Breakdown of sales by payment type (UPI, PayPal, Wallet) |
+| **Total Sales by Customer Gender** | Sales distribution between Male, Female, Other |
+| **Total Sales by Weekday** | Sales performance across Monday to Sunday |
+| **Sum of Quantity by Category** | Total quantity sold by product category |
+| **Total Sales by Region** | Sales performance by region (South, North, West, East, Central) |
+
+---
+
+## Key Insights
+
+| Insight | Detail |
+|---------|--------|
+| **Top Category** | Electronics generates highest sales |
+| **Top Payment Method** | UPI is most used (48%) |
+| **Top Region** | South region leads in revenue |
+| **Top Gender** | Male customers contribute more |
+| **Best Day** | Tuesday shows highest sales |
+
+---
+
+## How to Use
+1. Use slicers to filter data by category, year, payment method, region, or gender
+2. Hover over charts for detailed values
+3. Click on any chart element to cross-filter other visuals
+
+---
+
+## Key Business Insights
 
 | Insight | Business Action |
 |---------|-----------------|
@@ -127,8 +166,8 @@ ecommerce-sales-analysis/
 
 ---
 
-## 🖥️ Dashboard Preview
-<img width="1117" height="627" alt="image" src="https://github.com/user-attachments/assets/e429148d-49c9-469e-b078-f9eb8af9041c" />
+## Dashboard Preview
+<img width="1107" height="621" alt="image" src="https://github.com/user-attachments/assets/c4d15169-6a60-4f49-8e1b-d9207fbbe729" />
 
 
 
