@@ -113,25 +113,24 @@ This project analyzes **34,500 e-commerce transactions** to uncover business ins
 ### 2. Slicers (Filters)
 | Slicer | Options |
 |--------|---------|
-| Category | Beauty, Electronics, Fashion |
+| Category | Beauty, Electronics, Fashion, Grocery, Home, Sports, Toys |
 | Year | 2023, 2024, 2025 |
-| Payment Method | COD, Credit Card, Debit Card |
-| Region | Central, East, North, South |
+| Payment Method | COD, Credit Card, Debit Card, PayPal, UPI, Wallet |
+| Region | Central, East, North, South, West |
 | Customer Gender | Female, Male, Other |
 
 ---
 
 ### 3. Charts
 
-| Chart | Description |
-|-------|-------------|
-| **Total Sales by Year** | Bar chart showing sales trend across 2023-2025 |
-| **Total Sales by Payment Method** | Breakdown of sales by payment type (UPI, PayPal, Wallet) |
-| **Total Sales by Customer Gender** | Sales distribution between Male, Female, Other |
-| **Total Sales by Weekday** | Sales performance across Monday to Sunday |
-| **Sum of Quantity by Category** | Total quantity sold by product category |
-| **Total Sales by Region** | Sales performance by region (South, North, West, East, Central) |
-
+| Chart | Chart Type | Description |
+|-------|------------|-------------|
+| Total Sales by Year | Line Chart | Sales trend across 2023-2025 |
+| Total Sales by Payment Method | Pie Chart | Sales distribution by payment type |
+| Total Sales by Weekday | Bar Chart | Sales performance by day of week |
+| Sum of Quantity by Category | Bar Chart | Total quantity sold by product category |
+| Total Sales by Customer Gender | Pie Chart | Sales distribution by gender |
+| Total Sales by Region | Bar Chart | Sales performance by region |
 ---
 
 ## Key Insights
@@ -139,9 +138,9 @@ This project analyzes **34,500 e-commerce transactions** to uncover business ins
 | Insight | Detail |
 |---------|--------|
 | **Top Category** | Electronics generates highest sales |
-| **Top Payment Method** | UPI is most used (48%) |
+| **Top Payment Method** | Credit cards is most used (35.07%) |
 | **Top Region** | South region leads in revenue |
-| **Top Gender** | Male customers contribute more |
+| **Top Gender** | Male customers contribute more (48.65%) |
 | **Best Day** | Tuesday shows highest sales |
 
 ---
@@ -150,19 +149,6 @@ This project analyzes **34,500 e-commerce transactions** to uncover business ins
 1. Use slicers to filter data by category, year, payment method, region, or gender
 2. Hover over charts for detailed values
 3. Click on any chart element to cross-filter other visuals
-
----
-
-## Key Business Insights
-
-| Insight | Business Action |
-|---------|-----------------|
-| **Electronics** is top category ($2.06M) | Increase inventory and promotions |
-| **UPI** is most used payment (48%) | Offer UPI-exclusive discounts |
-| **South** region generates highest revenue ($2.79M) | Expand marketing in South region |
-| **Q4 (Oct-Dec)** is peak season | Plan holiday campaigns early |
-| **Male** customers spend more ($2.79M) | Create male-targeted ads |
-| **Tuesday** has highest weekday sales | Run mid-week promotions |
 
 ---
 
